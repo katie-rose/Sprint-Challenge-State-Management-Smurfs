@@ -3,7 +3,7 @@ import React from "react";
 const Smurf = props => {
   console.log(props);
   return (
-    <div>
+    <div className="Smurf-Form">
       <h1> {props.smurf.name} </h1>
       <p>Age: {props.smurf.age}</p>
       <p>Height: {props.smurf.height}</p>
