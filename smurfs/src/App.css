@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  background-image: url("https://www.newstatesman.com/sites/default/files/styles/cropped_article_image/public/blogs_2017/01/gettyimages-171120373.jpg?itok=iY_j6hqf");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.App {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  opacity: .8;
+  background-color: white;
+  color:black;
+  padding: 25px;
+}
+h1 {
+ background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  padding:10px;
+  color:white;
+}
+
+input {
+  padding:15px;
+  margin:10px;
+background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  color:white;
+  font-size: 20px;
+}
+
+button {
+  color:black;
+  background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  padding:10px;
+  font-size:1.3rem;
+  margin:10px;
+}
+
+.Smurf-Form{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  justify-content:space-around;
+  height:80px;
+}
+
